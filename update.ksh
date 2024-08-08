@@ -7,6 +7,8 @@ read employee_id
 # File containing employee data
 file="employee.data"
 
+#jkC
+#C
 # Fetch the employee data using the provided employee ID
 employee_data=$(grep "^$employee_id#" $file)
 
