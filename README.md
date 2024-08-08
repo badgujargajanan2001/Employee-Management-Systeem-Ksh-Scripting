@@ -3,10 +3,11 @@ copy all the command and paste in terminal
 1. ksh --version (If not install then Install)
 2. mkdir employee_management
 3. cd employee_management
-4. touch employee.data deactive.data
-5. echo "employee_id:1000" > employee_latest_id.in
-6. chmod +x create.ksh delete.ksh update.ksh view.ksh menu.ksh
-7. ./menu.ksh
+4. git clone https://github.com/badgujargajanan2001/Employee-Management-Systeem-Ksh-Scripting.git
+5. touch employee.data deactive.data
+6. echo "employee_id:1000" > employee_latest_id.in
+7. chmod +x create.ksh delete.ksh update.ksh view.ksh menu.ksh
+8. ./menu.ksh
 
 
 
