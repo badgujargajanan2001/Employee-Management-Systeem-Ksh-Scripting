@@ -1,15 +1,45 @@
-To execute the Employee Management System project, follow the steps below:
-copy all the command and paste in terminal
-1. ksh --version (If not install then Install)
-2. mkdir employee_management
-3. cd employee_management
-4. git clone https://github.com/badgujargajanan2001/Employee-Management-Systeem-Ksh-Scripting.git
-5. touch employee.data deactive.data
-6. echo "employee_id:1000" > employee_latest_id.in
-7. chmod +x create.ksh delete.ksh update.ksh view.ksh menu.ksh
-8. ./menu.ksh
 
+<body>
+    <div class="container">
+        <h1>Employee Management System Setup</h1>
+        <p>To execute the Employee Management System project, follow the steps below:</p>
+        <ol>
+            <li>Check if KornShell (KSH) is installed:
+                <pre>ksh --version</pre>
+                <p>If not installed, install it using your package manager:</p>
+                <pre>
+# For Debian/Ubuntu
+sudo apt-get install ksh
 
+# For RedHat/CentOS
+sudo yum install ksh
+
+# For MacOS
+brew install ksh
+                </pre>
+            </li>
+            <li>Create a project directory:
+                <pre>
+mkdir employee_management
+cd employee_management
+                </pre>
+            </li>
+            <li>Clone the GitHub repository:
+                <pre>git clone https://github.com/badgujargajanan2001/Employee-Management-Systeem-Ksh-Scripting.git</pre>
+            </li>
+            <li>Create necessary files:
+                <pre>
+touch employee.data deactive.data
+echo "employee_id:1000" > employee_latest_id.in
+                </pre>
+            </li>
+            <li>Make scripts executable:
+                <pre>chmod +x create.ksh delete.ksh update.ksh view.ksh menu.ksh</pre>
+            </li>
+            <li>Run the main menu script:
+                <pre>./menu.ksh</pre>
+            </li>
+        </ol>
 
 
 The system consists of several scripts, each designed to handle a specific aspect of employee management:
